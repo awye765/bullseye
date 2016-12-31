@@ -12,6 +12,7 @@
 		F6292B701E155B3400D4071E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6292B6E1E155B3400D4071E /* Main.storyboard */; };
 		F6292B721E155B3400D4071E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6292B711E155B3400D4071E /* Assets.xcassets */; };
 		F6292B751E155B3400D4071E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6292B731E155B3400D4071E /* LaunchScreen.storyboard */; };
+		F6292B7D1E1831D900D4071E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6292B7C1E1831D900D4071E /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F6292B711E155B3400D4071E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6292B741E155B3400D4071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6292B761E155B3400D4071E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6292B7C1E1831D900D4071E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F6292B6A1E155B3300D4071E /* AppDelegate.swift */,
 				F6292B6C1E155B3300D4071E /* ViewController.swift */,
 				F6292B6E1E155B3400D4071E /* Main.storyboard */,
+				F6292B7C1E1831D900D4071E /* AboutViewController.swift */,
 				F6292B711E155B3400D4071E /* Assets.xcassets */,
 				F6292B731E155B3400D4071E /* LaunchScreen.storyboard */,
 				F6292B761E155B3400D4071E /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6292B7D1E1831D900D4071E /* AboutViewController.swift in Sources */,
 				F6292B6D1E155B3300D4071E /* ViewController.swift in Sources */,
 				F6292B6B1E155B3300D4071E /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +301,7 @@
 				F6292B7B1E155B3400D4071E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
