@@ -13,6 +13,7 @@
 		F6292B721E155B3400D4071E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6292B711E155B3400D4071E /* Assets.xcassets */; };
 		F6292B751E155B3400D4071E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6292B731E155B3400D4071E /* LaunchScreen.storyboard */; };
 		F6292B7D1E1831D900D4071E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6292B7C1E1831D900D4071E /* AboutViewController.swift */; };
+		F6ACC5ED1E19226E00706C68 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F6ACC5EC1E19226E00706C68 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F6292B741E155B3400D4071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6292B761E155B3400D4071E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6292B7C1E1831D900D4071E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F6ACC5EC1E19226E00706C68 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		F6292B5E1E155B3300D4071E = {
 			isa = PBXGroup;
 			children = (
+				F6ACC5EC1E19226E00706C68 /* BullsEye.html */,
 				F6292B691E155B3300D4071E /* Bullseye */,
 				F6292B681E155B3300D4071E /* Products */,
 			);
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6292B751E155B3400D4071E /* LaunchScreen.storyboard in Resources */,
+				F6ACC5ED1E19226E00706C68 /* BullsEye.html in Resources */,
 				F6292B721E155B3400D4071E /* Assets.xcassets in Resources */,
 				F6292B701E155B3400D4071E /* Main.storyboard in Resources */,
 			);

@@ -170,22 +170,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KI3-Pb-B5B">
-                                <rect key="frame" x="102" y="28" width="365" height="213"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">*** Bull’s Eye ***
-
-Welcome to the awesome game of Bull’s Eye where you can win points and fame by dragging a slider.
-
-Your goal is to place the slider as close as possible to the target value.
-
-The closer you are, the more points you score.
-
-Enjoy!</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKo-eu-2Y0">
                                 <rect key="frame" x="234" y="263" width="100" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -202,13 +186,21 @@ Enjoy!</string>
                                     <action selector="close" destination="Vk2-jn-X66" eventType="touchUpInside" id="0AW-v6-QUZ"/>
                                 </connections>
                             </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-6Y-kUv">
+                                <rect key="frame" x="20" y="20" width="528" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="webView" destination="y9Q-6Y-kUv" id="U40-Ub-PX5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aiQ-Kv-Vsg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="54" y="988"/>
+            <point key="canvasLocation" x="53.87323943661972" y="986.25"/>
         </scene>
     </scenes>
     <resources>
