@@ -11,9 +11,9 @@
 		F6292B6D1E155B3300D4071E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6292B6C1E155B3300D4071E /* ViewController.swift */; };
 		F6292B701E155B3400D4071E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6292B6E1E155B3400D4071E /* Main.storyboard */; };
 		F6292B721E155B3400D4071E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6292B711E155B3400D4071E /* Assets.xcassets */; };
-		F6292B751E155B3400D4071E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6292B731E155B3400D4071E /* LaunchScreen.storyboard */; };
 		F6292B7D1E1831D900D4071E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6292B7C1E1831D900D4071E /* AboutViewController.swift */; };
 		F6ACC5ED1E19226E00706C68 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = F6ACC5EC1E19226E00706C68 /* BullsEye.html */; };
+		F6ACC5F11E1939BE00706C68 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6ACC5F01E1939BE00706C68 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		F6292B6C1E155B3300D4071E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F6292B6F1E155B3400D4071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6292B711E155B3400D4071E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F6292B741E155B3400D4071E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6292B761E155B3400D4071E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6292B7C1E1831D900D4071E /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F6ACC5EC1E19226E00706C68 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		F6ACC5F01E1939BE00706C68 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Resources/Launch Images/Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,7 @@
 		F6292B5E1E155B3300D4071E = {
 			isa = PBXGroup;
 			children = (
+				F6ACC5F01E1939BE00706C68 /* Default-568h@2x.png */,
 				F6ACC5EC1E19226E00706C68 /* BullsEye.html */,
 				F6292B691E155B3300D4071E /* Bullseye */,
 				F6292B681E155B3300D4071E /* Products */,
@@ -64,7 +65,6 @@
 				F6292B6E1E155B3400D4071E /* Main.storyboard */,
 				F6292B7C1E1831D900D4071E /* AboutViewController.swift */,
 				F6292B711E155B3400D4071E /* Assets.xcassets */,
-				F6292B731E155B3400D4071E /* LaunchScreen.storyboard */,
 				F6292B761E155B3400D4071E /* Info.plist */,
 			);
 			path = Bullseye;
@@ -129,8 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6292B751E155B3400D4071E /* LaunchScreen.storyboard in Resources */,
 				F6ACC5ED1E19226E00706C68 /* BullsEye.html in Resources */,
+				F6ACC5F11E1939BE00706C68 /* Default-568h@2x.png in Resources */,
 				F6292B721E155B3400D4071E /* Assets.xcassets in Resources */,
 				F6292B701E155B3400D4071E /* Main.storyboard in Resources */,
 			);
@@ -158,14 +158,6 @@
 				F6292B6F1E155B3400D4071E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F6292B731E155B3400D4071E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F6292B741E155B3400D4071E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
