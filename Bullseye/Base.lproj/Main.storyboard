@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="landscape">
+    <device id="retina3_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,12 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="OUd-po-hTP">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="OUd-po-hTP">
+                                <rect key="frame" x="-44" y="0.0" width="568" height="320"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pBX-yN-d4W">
                                 <rect key="frame" x="234" y="167" width="100" height="37"/>
@@ -141,6 +140,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OUd-po-hTP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PGp-ox-vah"/>
+                            <constraint firstItem="OUd-po-hTP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cp5-zY-7zF"/>
+                        </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
@@ -163,16 +166,18 @@
                         <viewControllerLayoutGuide type="bottom" id="DEC-Aw-PXh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="axm-sn-ISc">
-                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Dgj-Cm-hu1">
-                                <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Dgj-Cm-hu1">
+                                <rect key="frame" x="-44" y="0.0" width="568" height="320"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKo-eu-2Y0">
-                                <rect key="frame" x="234" y="263" width="100" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-6Y-kUv">
+                                <rect key="frame" x="20" y="20" width="440" height="235"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKo-eu-2Y0">
+                                <rect key="frame" x="190" y="263" width="100" height="37"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
                                 <state key="normal" title="Close" backgroundImage="Button-Normal">
@@ -186,13 +191,18 @@
                                     <action selector="close" destination="Vk2-jn-X66" eventType="touchUpInside" id="0AW-v6-QUZ"/>
                                 </connections>
                             </button>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-6Y-kUv">
-                                <rect key="frame" x="20" y="20" width="528" height="235"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Dgj-Cm-hu1" firstAttribute="centerY" secondItem="axm-sn-ISc" secondAttribute="centerY" id="Q3K-GB-kVP"/>
+                            <constraint firstItem="DEC-Aw-PXh" firstAttribute="top" secondItem="TKo-eu-2Y0" secondAttribute="bottom" constant="20" id="Wx0-uu-7td"/>
+                            <constraint firstItem="TKo-eu-2Y0" firstAttribute="top" secondItem="y9Q-6Y-kUv" secondAttribute="bottom" constant="8" id="X4Z-rn-Bgq"/>
+                            <constraint firstAttribute="trailing" secondItem="y9Q-6Y-kUv" secondAttribute="trailing" constant="20" id="ekT-Hm-kI3"/>
+                            <constraint firstItem="TKo-eu-2Y0" firstAttribute="centerX" secondItem="axm-sn-ISc" secondAttribute="centerX" id="gNe-hr-arM"/>
+                            <constraint firstItem="y9Q-6Y-kUv" firstAttribute="leading" secondItem="axm-sn-ISc" secondAttribute="leading" constant="20" id="gah-2y-nfo"/>
+                            <constraint firstItem="Dgj-Cm-hu1" firstAttribute="centerX" secondItem="axm-sn-ISc" secondAttribute="centerX" id="onV-rM-6zd"/>
+                            <constraint firstItem="y9Q-6Y-kUv" firstAttribute="top" secondItem="k7D-vO-Bke" secondAttribute="bottom" constant="20" id="pdp-Z3-QKq"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="webView" destination="y9Q-6Y-kUv" id="U40-Ub-PX5"/>
