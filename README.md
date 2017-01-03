@@ -16,7 +16,7 @@ A simple iOS game app built using Xcode and Swift.  This app was built using the
 
 - [X] As a User I am able to move a bull's eye on a UI slider to guess the location of the Target on the slider (a "**Guess**").
 
-- [X] As a User I am able to touch a "Hit Me" button to display a pop-up explaining how close the Guess was to the Target.
+- [X] As a User I am able to touch a "**Hit Me**" button to display a pop-up explaining how close the Guess was to the Target.
 
 - [X] As a User I am shown the current round, which should increase after each round.
 
@@ -24,21 +24,23 @@ A simple iOS game app built using Xcode and Swift.  This app was built using the
 
 - [X] As a User I am rewarded with a higher value of points the closer my Guess is to the Target.
 
-- [X] As a User I am able to touch a "Start Over" button to restart the game afresh with scores and rounds zeroed.
+- [X] As a User I am able to touch a "**Start Over**" button to restart the game afresh with scores and rounds zeroed.
 
-- [X] As a User I am able to touch an "Info" button to show an "About" page displaying the rules of the game.
+- [X] As a User I am able to touch an "**Info**" button to show an "About" page displaying the rules of the game.
 
 ## <a name="intro">Installation
 
 ### Via Xcode
 
-1.  Download and install Xcode for Mac here.
+1. Search for "**Xcode**" on the Mac's "**App Store**".
 
-2.  Set-up an Apple Developer account.
+2. Download Xcode for Mac.
 
-3.  Clone this repo by running ``git clone git@github.com:awye765/bullseye.git``
+3. Set-up an Apple Developer account.
 
-4.  Open this repo in Xcode and run the app via Xcode's device simulator.
+4.  Clone this repo by running ``git clone git@github.com:awye765/bullseye.git``
+
+5.  Open this repo in Xcode and run the app via Xcode's device simulator.
 
 ### Via your iPhone / iPad
 
