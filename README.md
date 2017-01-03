@@ -1,25 +1,13 @@
 # Bull's Eye
 
-[Intro](#intro) | [Features](#features) | [Installation](#installation)  [Technologies](#technologies)
+[Intro](#intro) | [Features](#features) | [Installation](#installation) | [Technologies](#technologies) | [Screenshots](#Screenshots)
 
 ## <a name="intro">Intro
 
 A simple iOS game app built using Xcode and Swift.  This app was built using the tools and resources of **part 1** of **raywenderlich.com's** awesome 'iOS Apprentice' course, available [here](https://www.raywenderlich.com/store/ios-apprentice).
 
 <p align="center">
-  <img src="Bullseye/readmeImages/home.png">
-</p>
-
-<p align="center">
   <img src="Bullseye/readmeImages/mainScreen.png">
-</p>
-
-<p align="center">
-  <img src="Bullseye/readmeImages/popUp.png">
-</p>
-
-<p align="center">
-  <img src="Bullseye//readmeImages/infoPage.png">
 </p>
 
 ## <a name="intro">Features
@@ -59,3 +47,27 @@ A simple iOS game app built using Xcode and Swift.  This app was built using the
 2.  Open Xcode.
 
 3.  Follow this [guide](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html).
+
+## <a name="intro">Technologies
+
+* iOS
+* Xcode
+* Swift
+
+## <a name="screenshots">Screenshots
+
+<p align="center">
+  <img src="Bullseye/readmeImages/home.png">
+</p>
+
+<p align="center">
+  <img src="Bullseye/readmeImages/mainScreen.png">
+</p>
+
+<p align="center">
+  <img src="Bullseye/readmeImages/popUp.png">
+</p>
+
+<p align="center">
+  <img src="Bullseye//readmeImages/infoPage.png">
+</p>
