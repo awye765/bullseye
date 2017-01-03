@@ -7,15 +7,19 @@
 A simple iOS game app built using Xcode and Swift.  This app was built using the tools and resources of **part 1** of **raywenderlich.com's** awesome 'iOS Apprentice' course, available [here](https://www.raywenderlich.com/store/ios-apprentice).
 
 <p align="center">
-  <img src="bullseye/Assets.xcassets/readmeImages/mainScreen.png">
+  <img src="Bullseye/readmeImages/home.png">
 </p>
 
 <p align="center">
-  <img src="bullseye/Assets.xcassets/readmeImages/popUp.png">
+  <img src="Bullseye/readmeImages/mainScreen.png">
 </p>
 
 <p align="center">
-  <img src="bullseye/Assets.xcassets/readmeImages/infoPage.png">
+  <img src="Bullseye/readmeImages/popUp.png">
+</p>
+
+<p align="center">
+  <img src="Bullseye//readmeImages/infoPage.png">
 </p>
 
 ## <a name="intro">Features
